@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web_Movie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="logo">
+                <img src="./assets/imgs/logo.svg" alt="#" class="logo-img">
+            </a>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-item-link">Home</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-item-link">Movie</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-item-link">Tv Show</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-item-link">Web Series</a>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="#" class="navbar__list-item-link">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__actions">
+                <i class="search-btn-icon fas fa-search"></i>
+                <div class="header__actions-wrapper">
+                    <label for="language">
+                        <i class="language-icon fa-solid fa-globe"></i>
+                    </label>
+                    <select name="language" id="language">
+                        <option value="EN">EN</option>
+                        <option value="VN">VN</option>
+                    </select>
+                </div>
+                <button class="btn-primary">Sign in</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article>
+            <!-- HERO -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__content">
+                        <p class="hero__content-subtitle">Filmlane</p>
+                        <h1 class="hero__content-title">
+                            Unlimited
+                            <strong>Movie</strong>
+                            , TVs Shows, & More.
+                        </h1>
+                        <div class="meta-wrapper">
+                            <div class="badge-wrapper">
+                                <span class="badge-fill">PG 18</span>
+                                <span class="badge-outline">HD</span>
+                            </div>
+                            <div class="ganre-wrapper">
+                                <a href="#">Romance,</a>
+                                <a href="#">Drama</a>
+                            </div>
+                            <div class="date-time">
+                                <div class="date-time-calendar">
+                                    <i class="fa-solid fa-calendar"></i>
+                                    <time datetime="2023">2023</time>
+                                </div>
+                                <div class="date-time-calendar">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <time datetime="PT128M">128 min</time>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn-primary">
+                            <i class="fa-solid fa-play"></i>
+                            <span>Watch now</span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!-- UPCOMING -->
+            <section class="upcoming">
+                <div class="upcoming__container">
+                    <div class="flex-wrapper">
+                        <div class="title-wrapper">
+                            <p class="section-subtitle">Online Streaming</p>
+                            <h2 class="section-title">Upcoming Movies</h2>
+                        </div>
+                        <ul class="filter-list">
+                            <li>
+                                <button class="filter-btn">Movies</button>
+                            </li>
+                            <li>
+                                <button class="filter-btn">TV Shows</button>
+                            </li>
+                            <li>
+                                <button class="filter-btn">Anime</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="movie-list">
+                        <div class="movie-list-link">
+                            <div class="movie-cart">
+                                <a href="#" class="movie-cart-img">
+                                    <img src="./assets/imgs/upcoming-1.png" alt="">
+                                </a>
+                                <div class="title-wrapper-time">
+                                    <a href="#" class="title-wrapper-title">
+                                        The Northman
+                                    </a>
+                                    <time datetime="2023">2023</time>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="badge-outline">HD</span>
+                                    <div class="duration">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <time datetime="PT137M">137 min</time>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <data>8.5</data>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-cart">
+                                <a href="#" class="movie-cart-img">
+                                    <img src="./assets/imgs/upcoming-2.png" alt="">
+                                </a>
+                                <div class="title-wrapper-time">
+                                    <a href="#" class="title-wrapper-title">
+                                        Doctor Strange in the Multiverse of Madness
+                                    </a>
+                                    <time datetime="2023">2023</time>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="badge-outline">4K</span>
+                                    <div class="duration">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <time datetime="PT137M">126 min</time>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <data>NR</data>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-cart">
+                                <a href="#" class="movie-cart-img">
+                                    <img src="./assets/imgs/upcoming-3.png" alt="">
+                                </a>
+                                <div class="title-wrapper-time">
+                                    <a href="#" class="title-wrapper-title">
+                                        Memory
+                                    </a>
+                                    <time datetime="2023">2023</time>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="badge-outline">2K</span>
+                                    <div class="duration">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <time datetime="PT137M">N/A</time>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <data>NR</data>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="movie-cart">
+                                <a href="#" class="movie-cart-img">
+                                    <img src="./assets/imgs/upcoming-4.png" alt="">
+                                </a>
+                                <div class="title-wrapper-time">
+                                    <a href="#" class="title-wrapper-title">
+                                        The Unbearable Weight of Massive Talent
+                                    </a>
+                                    <time datetime="2023">2023</time>
+                                </div>
+                                <div class="card-meta">
+                                    <span class="badge-outline">HD</span>
+                                    <div class="duration">
+                                        <i class="fa-regular fa-clock"></i>
+                                        <time datetime="PT137M">107 min</time>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <data>NR</data>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- SERVICE -->
+            <section class="service">
+                <div class="service_container">
+                    <div class="service_banner">
+                        <figure>
+                            <img src="./assets/imgs/service-banner.jpg" alt="HD 4k resolution! only $3.99">
+                        </figure>
+                        <a href="./assets/imgs/service-banner.jpg" class="service-btn">
+                            <span>Download</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="service_content">
+                        <a class="service-subtitle">Our Services</a>
+                        <h2 class="service-title">Download Your Shows Watch Offline.</h2>
+                        <p class="service-text">
+                            Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.
+                        </p>
+                        <ul class="service-list">
+                            <li>
+                                <div class="service-card">
+                                    <a class="card-icon">
+                                        <i class="fas fa-tv"></i>
+                                    </a>
+                                    <div class="card-content">
+                                        <h3 class="card-title">Enjoy on Your TV.</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="service-card">
+                                    <a class="card-icon">
+                                        <i class="fas fa-video-camera"></i>
+                                    </a>
+                                    <div class="card-content">
+                                        <h3 class="card-title">Watch Everywhere.</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    
+
+    
+
+    
+
+    <!-- TOP RATED -->
+
+    <!-- TV SERIES -->
+
+    <!-- CTA -->
+
+    <!-- FOOTER -->
+
+    <!-- GO TO TOP -->
+
+    <!-- MOVIE DETAILS -->
+
+</body>
+</html>
