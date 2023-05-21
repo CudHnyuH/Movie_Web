@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web_Movie</title>
+    <link rel="shortcut icon" href="./assets/imgs/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,12 +17,12 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header active" data-header>
         <div class="container">
             <a href="./index.html" class="logo">
                 <img src="./assets/imgs/logo.svg" alt="#" class="logo-img">
             </a>
-            <nav class="navbar">
+            <nav class="navbar active">
                 <ul class="navbar__list">
                     <li class="navbar__list-item">
                         <a href="#" class="navbar__list-item-link">Home</a>
@@ -654,11 +655,12 @@
 
     <!-- GO TO TOP -->
 
-    <a href="#top" class="go-top">
+    <a href="#top" class="go-top active" data-go-top>
         <i class="fa-solid fa-angle-up"></i>
     </a>
 
     <!-- MOVIE DETAILS -->
+    <script src="./assets/js/script.js"></script>
 
 </body>
 </html>
