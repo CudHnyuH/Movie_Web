@@ -1,6 +1,36 @@
 /* Tablet & Mobile */
 @media (max-width: 1023px) {
-
+    .navbar__list {
+        display: none;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-block: 25px;
+        transition: var(--transition-2);
+        z-index: 4;
+    }
+    .container {
+        max-width: 720px;
+        margin: 0 24px;
+    }
+    .btn-primary {
+        display: none;
+    }
+    .menu-open-btn {
+        color: var(--white);
+        font-size: 2rem;
+    }
+    
+    .movie-cart {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .service_container {
+        display: block;
+    }
 }
 
 /* Tablet */
